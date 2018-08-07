@@ -1,0 +1,69 @@
+.topnav {
+  background-color: #96BBFF;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav p {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container button {
+  margin-bottom: 30px;
+  padding: 1.5%;
+  font-style: strong;
+}
+
+.container {
+  margin: 1.5% auto;
+}
+
+
+.panel {
+  width: 100%;
+  height: 350px;
+}
+
+.panel-heading {
+  text-align: center;
+}
+
+.panel-showing-1 {
+  text-align: center;
+  font-size: 200px;
+  font-style: strong;
+  color: #96BBFF;
+  padding-top: 0;
+}
+
+.panel-hidden-1 {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+#initially-hidden-1, #initially-hidden-2, #initially-hidden-3, #initially-hidden-4, #initially-hidden-5, #initially-hidden-6, #initially-hidden-7, #initially-hidden-8, #initially-hidden-9 {
+  display: none;
+}
+
+.clickable-1, .clickable-2, .clickable-3, .clickable-4, .clickable-5, .clickable-6, .clickable-7, .clickable-8, .clickable-9 {
+  cursor: pointer;
+}
+
+.clickable-1:hover, .clickable-2:hover, .clickable-3:hover, .clickable-4:hover, .clickable-5:hover, .clickable-6:hover, .clickable-7:hover, .clickable-8:hover, .clickable-9:hover {
+  text-decoration: none;
+  color: grey;
+}

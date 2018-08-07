@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Flashcard Website</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="topnav">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#news">News</a>
+        <a class="active" href="#home">Home</a>
+
+        <p><strong>JavaScript & jQuery Flashcards</strong></p>
+      </div>
+
+      <div class="container">
+        <button type="button" class="btn btn-info btn-lg btn-block"><strong>Click a button in order to see the definition:</strong></button>
+
+
+  <!-- Vocab Row 1 -->
+
+          <div class="row">
+
+            <div class="col-md-4">
+              <div id="initially-showing-1">
+                <div class="panel panel-default panel-info">
+                  <div class="panel-heading">Chaining Methods</div>
+                  <div class="panel-body panel-showing-1"><span class="clickable-1">?</span></div>
+                </div>
+              </div>
+              <div id="initially-hidden-1">
+                <div class="panel panel-default panel-info">
+                  <div class="panel-heading">Chaining Methods</div>
+                  <div class="panel-body panel-hidden-1"><span class="clickable-1">Calling a method directly on the return value of another method.</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="initially-showing-2">
+                <div class="panel panel-default panel-info">
+                  <div class="panel-heading">Operators</div>
+                  <div class="panel-body panel-showing-1"><span class="clickable-2">?</span></div>
+                </div>
+              </div>
+              <div id="initially-hidden-2">
+                <div class="panel panel-default panel-info">
+                  <div class="panel-heading">Operators</div>
+                  <div class="panel-body panel-hidden-1"><span class="clickable-2">A special character (or characters) that indicates an action to be performed.</span></div>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-4">
+            <div id="initially-showing-3">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Boolean</div>
+                <div class="panel-body panel-showing-1"><span class="clickable-3">?</span></div>
+              </div>
+            </div>
+            <div id="initially-hidden-3">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Boolean</div>
+                <div class="panel-body panel-hidden-1"><span class="clickable-3">True and false are booleans. They are not strings - they simply represent being true or false.</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+<!-- Vocab Row 2 -->
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <div id="initially-showing-4">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">JavaScript (JS)</div>
+                <div class="panel-body panel-showing-1"><span class="clickable-4">?</span></div>
+              </div>
+            </div>
+            <div id="initially-hidden-4">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">JavaScript (JS)</div>
+                <div class="panel-body panel-hidden-1"><span class="clickable-4">The programming language of the web, and jQuery, an extensive JavaScript library to help make our webpages interactive.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div id="initially-showing-5">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Variables</div>
+                <div class="panel-body panel-showing-1"><span class="clickable-5">?</span></div>
+              </div>
+            </div>
+            <div id="initially-hidden-5">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Variables</div>
+                <div class="panel-body panel-hidden-1"><span class="clickable-5">Containers used to store information. They allow for a way to label data with a descriptive name.</span></div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-4">
+          <div id="initially-showing-6">
+            <div class="panel panel-default panel-info">
+              <div class="panel-heading">Functions</div>
+              <div class="panel-body panel-showing-1"><span class="clickable-6">?</span></div>
+            </div>
+          </div>
+          <div id="initially-hidden-6">
+            <div class="panel panel-default panel-info">
+              <div class="panel-heading">Functions</div>
+              <div class="panel-body panel-hidden-1"><span class="clickable-6">A block of code that performs an action and returns a result; optionally takes arguments.</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!-- Vocab Row 3 -->
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <div id="initially-showing-7">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Arguments</div>
+                <div class="panel-body panel-showing-1"><span class="clickable-7">?</span></div>
+              </div>
+            </div>
+            <div id="initially-hidden-7">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">Arguments</div>
+                <div class="panel-body panel-hidden-1"><span class="clickable-7">Some methods take one or more arguments that provide the method with additional information to help it perform its action.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div id="initially-showing-8">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">String</div>
+                <div class="panel-body panel-showing-1"><span class="clickable-8">?</span></div>
+              </div>
+            </div>
+            <div id="initially-hidden-8">
+              <div class="panel panel-default panel-info">
+                <div class="panel-heading">String</div>
+                <div class="panel-body panel-hidden-1"><span class="clickable-8">A JavaScript data type that represents the exact text of whatever is enclosed in the quotes.</span></div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-4">
+          <div id="initially-showing-9">
+            <div class="panel panel-default panel-info">
+              <div class="panel-heading">Methods</div>
+              <div class="panel-body panel-showing-1"><span class="clickable-9">?</span></div>
+            </div>
+          </div>
+          <div id="initially-hidden-9">
+            <div class="panel panel-default panel-info">
+              <div class="panel-heading">Methods</div>
+              <div class="panel-body panel-hidden-1"><span class="clickable-9">An action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.</span></div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+
+
+<!-- Footer -->
+
+    </div>
+  </body>
+</html>
